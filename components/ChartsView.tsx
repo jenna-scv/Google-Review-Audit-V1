@@ -114,7 +114,7 @@ export const ChartsView: React.FC<ChartsViewProps> = ({ data, id }) => {
                    paddingAngle={5}
                    dataKey="value"
                  >
-                   {data.metrics.distribution.map((entry, index) => (
+                   {data.metrics.distribution.map((_entry, index) => (
                      <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                    ))}
                  </Pie>

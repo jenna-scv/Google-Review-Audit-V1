@@ -1,7 +1,7 @@
 
-import React, { useState, useRef, useEffect } from 'react';
-import { Upload, FileText, Download, Loader2, RefreshCw, AlertCircle, Copy, Check, Star, Calendar } from 'lucide-react';
-import { AppData, Review } from './types';
+import React, { useState, useRef } from 'react';
+import { Upload, FileText, Download, Loader2, RefreshCw, AlertCircle, Copy, Check, Star } from 'lucide-react';
+import { AppData } from './types';
 import { parseCSV } from './services/csvParser';
 import { processReviews } from './services/analytics';
 import { analyzeReviews } from './services/gemini';

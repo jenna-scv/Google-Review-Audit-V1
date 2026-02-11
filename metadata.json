@@ -1,0 +1,5 @@
+{
+  "name": "Brindle Quarterly Review Audit",
+  "description": "Automated PDF report generator for Google Business Profile reviews, featuring YTD analytics and LLM-powered quarterly insights.",
+  "requestFramePermissions": []
+}
